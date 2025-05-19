@@ -1,2 +1,1 @@
-# portfolio-2025
-Portfólio Daniele Santos
+# Portfólio Daniele Santos
