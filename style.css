@@ -100,6 +100,32 @@ nav a:hover {
 }
 
 
+/* TELA PARA CELULAR */
+
+@media screen and (max-width: 723px) {
+
+    header {
+        border-bottom: none;
+    }
+
+    #apresentacao1 #apresentacao {
+        width: 80%;
+
+        /* background-color: #161313; */
+        justify-content: center;
+    }
+
+    .usuario {
+        width: 80%;
+    }
+
+
+}
+
+
+
+
+
 #apresentacao1 {
     width: 100%;
     margin: 0px auto 0px;
@@ -208,30 +234,6 @@ nav a:hover {
     border: 10px;
 }
 
-
-
-
-/* @keyframes type {
-    0% {
-      width: 0;
-    }
-  
-  }
-  @keyframes caret { 
-    50% { 
-      box-shadow: .6em 0 0 transparent;
-    }
-  }
-   */
-
-
-/* 
-#apresentacao h1{
-    color: rgb(245, 241, 237);
-    font-size: 40px;
-    line-height: 1.5;
-    font-family: Arial, Helvetica, sans-serif;
-} */
 
 #apresentacao p {
     font: 400 25px arial, sans-serif;
@@ -343,7 +345,7 @@ nav a:hover {
     /* background-color: rgb(37, 22, 43);  */
     padding-bottom: 30px;
     transition: transform 0.8s ease;
-   background-image: linear-gradient(to left, rgb(28, 24, 34) 0, rgb(31, 19, 37) 90%, rgb(106, 16, 196) 10%); 
+    background-image: linear-gradient(to left, rgb(28, 24, 34) 0, rgb(31, 19, 37) 90%, rgb(106, 16, 196) 10%);
 
 }
 
@@ -438,7 +440,7 @@ nav a:hover {
     margin: 0 auto;
     /* background-color: #242222; */
     /* max-width: 100%; */
-   background-image: linear-gradient(to right, rgb(28, 24, 34) 0, rgb(31, 19, 37) 80%, rgb(126, 30, 223) 20%);
+    background-image: linear-gradient(to right, rgb(28, 24, 34) 0, rgb(31, 19, 37) 80%, rgb(126, 30, 223) 20%);
 
 
 }
@@ -472,7 +474,7 @@ nav a:hover {
 
 #quandro {
     /* transition: transform 0.8s ease; */
-    margin: 0 20px;
+    margin: 0 20px 20px;
     border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -540,7 +542,7 @@ nav a:hover {
 
 .skil-e img {
     width: 80px;
-    margin: 0 20px;
+    margin: 0 20px 20px;
     display: flex;
     background-color: rgb(22, 21, 21);
     border: 1px solid #252424;
