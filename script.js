@@ -1,4 +1,3 @@
-    
 function cor1(){
     var obj = document.getElementById("div-img");
     obj.style.backgroundColor= ' rgb(133, 94, 134)'  ;
@@ -53,62 +52,49 @@ function addEventos(){
 
 
 
-window.addEventListener("load", addEventos);
-// OUTRO    
-  
-// function cor4(){
-//     var obj1 = document.getElementById("div-img1");
-//     obj1.style.backgroundColor= ' rgb(133, 94, 134)'  ;
-//     obj1.style.color= '#fff';
-//     document.getElementById("div-img1").style.transition=  'all 0.5s ease';
-//     var link1 =  document.getElementById("link1")
-//     document.getElementById("link1").style.visibility = "visible";
-//     link1.style.display = 'block';
-//     link1.style.target = "_blank";
-//     document.getElementById("link1").innerHTML = "ABRIR SITE </br> Berçario e Educacional" 
-//     document.getElementById("link1").style.zIndex = '100';
-//     link1 = document.getElementById("link1").href = 'http://vitoriamotos.dnsite.com.br';
-//     document.getElementById("imgg1").style.display = "none";
-//     document.getElementById("imgg1").style.visibility = "hidden"; 
-//     document.getElementById("texto1").innerHTML = "" 
-//     document.getElementById("texto1").style.cssText =
-//     'margin: 250px auto 0; ' +
-//     'color: #fff;' ;
-// }
-
-// function cor6(){
-//     var obj1 = document.getElementById("div-img1")
-//     obj1.style.backgroundColor= "rgb(53, 51, 51)" 
-//     var link1 =  document.getElementById("link1")
-
-//     document.getElementById("link1").style.visibility = "hidden";
-//     document.getElementById("link1").style.display = 'none';
-//     link1.style.display = 'none';
-//     document.getElementById("imgg1").style.display = "none";
-//     document.getElementById("imgg1").style.visibility = "visible";
-//     document.getElementById("imgg1").style.display = "block";
-//     document.getElementById("imgg1").src = "img/bercario.png";
-//     document.getElementById("texto1").innerHTML = "<h3>Site Berçario educacional </h3><p> Tecnologia: Html Css JavaScript</p>" 
-//     document.getElementById("imgg1").style.margin = '0 auto';
-//     document.getElementById("texto1").style.cssText =
-//     "margin: 10px auto 0;  font: normal 18px 'Raleway', sans-serif; " ;
-// }
-
-// function addEventos(){
-//     var obj1 = document.getElementById("div-img1");
-//     var img1 =  document.getElementById("imgg1");
-//     var texto1 =  document.getElementById("texto1");
-//     var link1 = document.getElementById("link1");
-
-//     link1.addEventListener("click", cor4);
-//     texto1.addEventListener("mouseover", cor4);
-//     img1.addEventListener("mouseover", cor4);
-//     obj1.addEventListener("mouseover", cor4);
-//     obj1.addEventListener("mouseout", cor6);
-// }
 
 
 
+// document.getElementById("skill").addEventListener(
+//     "mouseover", skilss);
+
+// const myDiv = document.getElementById("skil");
 
 
-// window.addEventListener("load", addEventos);
+// function handleMouseover() {
+//       myDiv.style.backgroundColor = "lightcoral";
+//     } 
+
+//     myDiv.addEventListener("mouseover", handleMouseover);
+    
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     const colorBox = document.getElementById("skil");
+//     const coordinates = document.getElementById("quandro");
+
+//     colorBox.addEventListener("mouseover", function() {
+        
+//         // colorBox.style.transition="translateX(30px)";
+//     });
+
+//     coordinates.addEventListener("mouseover", function() {
+//         // colorBox.style.margin= "0 40px 0 0px";
+//         // colorBox.style.transition="translateX(30px)";
+//     });
+
+//     colorBox.addEventListener("mouseout", function() {
+//         // colorBox.style.margin = "0px";
+//         // colorBox.style.justifyContent= "center";
+//     });
+
+// });
+
+
+
+const btContato = document.getElementById("btContato");
+var caixaContato = document.getElementById("caixaContato");
+//btContato.addEventListener("click", buttomContato);
+
+function contVisibilidade() {
+  document.getElementById("caixaContato").classList.toggle("cont-escondido");
+}
